@@ -1,7 +1,7 @@
 //Created by Shashwat Raj
 #include<iostream>
 using namespace std;
-
+//Base Class
 class Book
 {
 public:
@@ -10,6 +10,7 @@ public:
         cout<<"Constructor of Book"<<endl;
     }
 };
+//Derived Class
 class Comic: public Book
 {
 public:
@@ -18,6 +19,7 @@ public:
         cout<<"Constructor of Comic"<<endl;
     }
 };
+//Derived Class
 class eBook:public Comic
 {
 public:
