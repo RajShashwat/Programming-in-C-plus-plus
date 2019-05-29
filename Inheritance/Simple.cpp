@@ -1,21 +1,22 @@
 //Created by Shashwat Raj
 #include<iostream>
 using namespace std;
-
+//Base Class
 class Book
 {
 public:
     Book()
     {
-        cout<<"Base Class Constructor:Book"<<endl;
+        cout<<"Constructor of Book"<<endl;
     }
 };
+//Derived Class
 class Comic:public Book
 {
 public:
     Comic()
     {
-        cout<<"Derived class Constructor:Comic"<<endl;
+        cout<<"Constructor of Comic"<<endl;
     }
 };
 
